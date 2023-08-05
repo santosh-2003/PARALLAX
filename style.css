@@ -1,0 +1,82 @@
+html , body{
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: "lato" , sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimage1{
+    background-image: url(woods.jpg);
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pimage2{
+    background-image: url(rainfall.jpg);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pimage3{
+    /* background-image: url(best.jpg); */
+    background-image: url(image_3.jpg);
+
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pimage4{
+    background-image: url(explore_nature.jpg);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pimage1 , .pimage3 , .pimage2, .pimage4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment : fixed;
+}
+.ptext{
+    width: 420px;
+    /* background-color: #313534; */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 27px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.text-bg{
+    color: #fff;
+    padding: 20px;
+}
+
+.sec-1{
+    padding: 30px 80px;
+    text-align: center;
+    
+}
+
+.sec-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.sec-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
